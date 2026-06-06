@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/prismSuite/.github/main/assets/prismsuite-header.svg" width="100%" alt="prismSuite"/>
+<img src="https://raw.githubusercontent.com/prismSuite/.github/main/prismsuite-header.svg" width="100%" alt="prismSuite"/>
 
 <br/>
 
