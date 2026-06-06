@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 220" width="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      .blink{animation:blink 1.2s step-end infinite}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      .ticker{animation:tick 22s linear infinite}
+      @keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+      .pulse{animation:pulse 3s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+      .fadein{animation:fi 0.5s ease forwards;opacity:0}
+      .d1{animation-delay:0.05s}.d2{animation-delay:0.15s}.d3{animation-delay:0.28s}.d4{animation-delay:0.42s}
+      @keyframes fi{to{opacity:1}}
+    </style>
+  </defs>
+
+  <rect width="1400" height="220" fill="#0a0a0c"/>
+  <rect x="0" y="0" width="1400" height="2" fill="#6C3FC5"/>
+  <rect x="0" y="0" width="16" height="220" fill="#6C3FC5"/>
+  <rect x="16" y="0" width="1384" height="46" fill="#0f0f14"/>
+  <rect x="16" y="46" width="1384" height="1" fill="#1e1e2e"/>
+
+  <text x="34" y="29" font-family="'Share Tech Mono',monospace" font-size="12" fill="#6C3FC5" letter-spacing="3">PRISMSUITE</text>
+  <text x="178" y="29" font-family="'Share Tech Mono',monospace" font-size="12" fill="#333" letter-spacing="2">// github.com/prismSuite · audio production tooling</text>
+
+  <rect x="1230" y="13" width="152" height="20" fill="none" stroke="#6C3FC5" stroke-width="0.8" class="pulse"/>
+  <circle cx="1245" cy="23" r="3.5" fill="#34a853"/>
+  <text x="1255" y="27" font-family="'Share Tech Mono',monospace" font-size="10" fill="#34a853" letter-spacing="1">STATUS: BUILDING</text>
+
+  <g class="fadein d1">
+    <rect x="34" y="62" width="100" height="100" fill="#6C3FC5"/>
+    <polygon points="84,72 124,132 44,132" fill="#0a0a0c" opacity="0.25"/>
+    <polygon points="84,80 118,128 50,128" fill="none" stroke="#fff" stroke-width="1.2" opacity="0.6"/>
+    <line x1="84" y1="80" x2="84" y2="128" stroke="#fff" stroke-width="0.6" opacity="0.4"/>
+    <line x1="84" y1="128" x2="50" y2="128" stroke="#9b59b6" stroke-width="2" opacity="0.8"/>
+    <line x1="84" y1="128" x2="118" y2="128" stroke="#3498db" stroke-width="2" opacity="0.8"/>
+    <line x1="84" y1="128" x2="62" y2="148" stroke="#e74c3c" stroke-width="1.5" opacity="0.7"/>
+    <line x1="84" y1="128" x2="84" y2="152" stroke="#f39c12" stroke-width="1.5" opacity="0.7"/>
+    <line x1="84" y1="128" x2="106" y2="148" stroke="#2ecc71" stroke-width="1.5" opacity="0.7"/>
+  </g>
+
+  <g class="fadein d2">
+    <text x="148" y="110" font-family="Arial Black,sans-serif" font-size="64" font-weight="900" fill="#ffffff" letter-spacing="-2">prism</text>
+    <text x="148" y="150" font-family="Arial Black,sans-serif" font-size="30" font-weight="900" fill="#6C3FC5" letter-spacing="6">SUITE</text>
+  </g>
+
+  <rect x="420" y="62" width="1" height="100" fill="#1e1e2e"/>
+
+  <g class="fadein d3">
+    <text x="440" y="86" font-family="'Share Tech Mono',monospace" font-size="10" fill="#444" letter-spacing="3">FOCUS</text>
+    <text x="440" y="104" font-family="'Share Tech Mono',monospace" font-size="13" fill="#fff" letter-spacing="1">Audio Production Tooling</text>
+    <text x="440" y="128" font-family="'Share Tech Mono',monospace" font-size="10" fill="#444" letter-spacing="3">STACK</text>
+    <text x="440" y="146" font-family="'Share Tech Mono',monospace" font-size="13" fill="#6C3FC5" letter-spacing="1">Rust · egui · Tauri · Python · OSC</text>
+    <text x="440" y="170" font-family="'Share Tech Mono',monospace" font-size="10" fill="#444" letter-spacing="3">DESIGN</text>
+    <text x="440" y="188" font-family="'Share Tech Mono',monospace" font-size="13" fill="#fff" letter-spacing="1">MonolithUI — Industrial Audio Skeuomorphism</text>
+  </g>
+
+  <g class="fadein d4">
+    <rect x="900" y="68" width="132" height="26" rx="2" fill="none" stroke="#333" stroke-width="1"/>
+    <text x="914" y="86" font-family="'Share Tech Mono',monospace" font-size="12" fill="#6C3FC5">Rust · Stable</text>
+    <rect x="1044" y="68" width="110" height="26" rx="2" fill="none" stroke="#333" stroke-width="1"/>
+    <text x="1058" y="86" font-family="'Share Tech Mono',monospace" font-size="12" fill="#fff">egui · eframe</text>
+    <rect x="1166" y="68" width="106" height="26" rx="2" fill="none" stroke="#333" stroke-width="1"/>
+    <text x="1180" y="86" font-family="'Share Tech Mono',monospace" font-size="12" fill="#24C8DB">Tauri · v2</text>
+    <rect x="900" y="106" width="132" height="26" rx="2" fill="none" stroke="#333" stroke-width="1"/>
+    <text x="914" y="124" font-family="'Share Tech Mono',monospace" font-size="12" fill="#3b82f6">Python · 3.11+</text>
+    <rect x="1044" y="106" width="110" height="26" rx="2" fill="none" stroke="#333" stroke-width="1"/>
+    <text x="1058" y="124" font-family="'Share Tech Mono',monospace" font-size="12" fill="#f59e0b">ONNX · PyTorch</text>
+    <rect x="1166" y="106" width="106" height="26" rx="2" fill="none" stroke="#333" stroke-width="1"/>
+    <text x="1180" y="124" font-family="'Share Tech Mono',monospace" font-size="12" fill="#10b981">OSC · UDP</text>
+    <rect x="900" y="144" width="372" height="26" rx="2" fill="#6C3FC520" stroke="#6C3FC5" stroke-width="0.8"/>
+    <text x="914" y="162" font-family="'Share Tech Mono',monospace" font-size="12" fill="#6C3FC5">Native. GPU-rendered. No Electron. No WebView.</text>
+  </g>
+
+  <rect x="16" y="194" width="1384" height="1" fill="#1e1e2e"/>
+  <rect x="16" y="195" width="1384" height="25" fill="#0d0d10"/>
+  <clipPath id="tc"><rect x="34" y="196" width="1350" height="24"/></clipPath>
+  <g clip-path="url(#tc)">
+    <text class="ticker" y="212" font-family="'Share Tech Mono',monospace" font-size="11" fill="#2a1f4a" letter-spacing="3">
+      PRISMSPLIT · PRISMCONSOLE · PRISMCONTROL · STEM SEPARATION · AI ORCHESTRATION · REAPER INTEGRATION · OSC · BEHRINGER XR12 · ONNX · PYTORCH · CUDA · APPLE SILICON · MONOLITHUI · DARK BRUTALISM · NATIVE BINARIES · PRISMSPLIT · PRISMCONSOLE · PRISMCONTROL · STEM SEPARATION · AI ORCHESTRATION · REAPER INTEGRATION · OSC · BEHRINGER XR12 · ONNX · PYTORCH · CUDA · APPLE SILICON · MONOLITHUI · DARK BRUTALISM · NATIVE BINARIES ·
+    </text>
+  </g>
+  <rect x="148" y="156" width="10" height="26" fill="#6C3FC5" class="blink"/>
+</svg>
