@@ -4,7 +4,7 @@
 
 [![prismSplit](https://img.shields.io/badge/prismSplit-stem_separation-6C3FC5?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/prismSuite/prismSplit)
 [![prismConsole](https://img.shields.io/badge/prismConsole-AI_orchestration-6C3FC5?style=for-the-badge&logo=tauri&logoColor=white)](https://github.com/prismSuite/prismConsole)
-[![prismControl](https://img.shields.io/badge/prismControl-OSC_mixer_control-6C3FC5?style=for-the-badge&logo=python&logoColor=white)](https://github.com/prismSuite/prismControl)
+[![prismController](https://img.shields.io/badge/prismController-OSC_mixer_control-6C3FC5?style=for-the-badge&logo=python&logoColor=white)](https://github.com/prismSuite/prismController)
 [![License](https://img.shields.io/badge/license-proprietary-1a1a2e?style=for-the-badge)](https://github.com/prismSuite)
 
 ---
@@ -101,7 +101,7 @@ cargo tauri build     # production
 
 ---
 
-### [prismControl](https://github.com/prismSuite/prismControl)
+### [prismController](https://github.com/prismSuite/prismController)
 
 > Agentic OSC interface for real-time Behringer XR12 mixer control.
 
@@ -158,7 +158,7 @@ prismConsole ──────── detects ──────► prismSplit
      │                                    │
      │  REAPER Bridge                     │  Inference Engine
      ▼                                    ▼
-  REAPER DAW ◄──── OSC ──── prismControl (XR12 Mixer)
+  REAPER DAW ◄──── OSC ──── prismController (XR12 Mixer)
 ```
 
 All three tools are standalone. The integration is opt-in and detection-based — no shared daemon, no required install order.
@@ -170,9 +170,9 @@ All three tools are standalone. The integration is opt-in and detection-based �
 | Tool | Version |
 |---|---|
 | Rust | Stable 1.80+ |
-| Python | 3.9 / 3.10 / 3.11 (prismSplit, prismControl) |
+| Python | 3.9 / 3.10 / 3.11 (prismSplit, prismController) |
 | Node.js | v18+ (prismConsole) |
-| Ollama | Latest (prismControl) |
+| Ollama | Latest (prismController) |
 | CUDA | Optional — GPU acceleration for prismSplit |
 
 ---
